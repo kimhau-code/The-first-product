@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets3/css/main3.css">
+    <link rel="stylesheet" href="./assets3/css/base3.css">
+    <link rel="stylesheet" href="./assets3/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets3/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="header">
+        <ul class="header-nav">
+            <li class="header-nav__item">
+                <a href="" class="header-nav__link">HOME</a>
+            </li>
+            <li class="header-nav__item">
+                <a href="" class="header-nav__link">
+                    <i class="fas fa-user"></i>
+                    ABOUT
+                </a>
+            </li>
+            <li class="header-nav__item">
+                <a href="" class="header-nav__link">
+                    <i class="fas fa-th"></i>
+                    PORTFOLIO
+                </a>
+            </li>
+            <li class="header-nav__item">
+                <a href="" class="header-nav__link">
+                    <i class="fas fa-envelope"></i>
+                    CONTACT
+                </a>
+            </li>
+        </ul>
+        <!-- search-btn -->
+        <div class="header-search">
+            <i class="header-search__icon fas fa-search"></i>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider__heading">
+            <span class="slider__heading-1">MY</span>
+            <span class="slider__heading-2">WEBSITE</span>
+            <span class="slider__heading-3">LOGO</span>
+        </div>
+    </div>
+
+    <div class="content">
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+/* header-nav */
+
+.header {
+    height: 43px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-nav {
+    list-style: none;
+    display: inline-block;
+}
+
+.header-nav__item {
+    display: inline-block;
+}
+
+.header-nav__link:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.header-nav__link {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 16px;
+    line-height: 43px;
+    color: #777;
+    display: block;
+}
+
+.header-search {
+    float: right;
+    line-height: 43px;
+    color: #777;
+}
+
+.header-search:hover {
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+.header-search__icon {
+    font-size: 15px;
+    padding: 0 14px 0 17px;
+}
+
+/* slider */
+
+.slider {
+    background: url('../img/slider.jpg') 50% 50% / cover no-repeat;
+    background-attachment: fixed;
+    /* padding-top: 50%; */
+    opacity: 0.75;
+    background-attachment: scroll;
+    min-height: 400px;
+    position: relative;
+}
+
+.slider__heading {
+    position: absolute;
+    padding: 12px 24px;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    animation: fadeIn ease 0.8s;
+}
+
+.slider__heading-1 {
+
+}
+
+.slider__heading-2 {
+
+}
+
+.slider__heading-3 {
+
+}
+
+
+.header {
+    height: 43px;
+    width: 100%;
+}
+
+
+.header-list {
+    position: fixed;
+    width: 100%;  
+    z-index: 1;
+}
+
+.header-item {
+    text-decoration: none;
+    color: #777;
+    padding: 13px 16px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.header-item-item:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.header-search {
+    float: right;
+    padding: 13px 14px 13px 16px;
+    font-size: 15px;
+}
+
+.header-search:hover {
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets3/css/main3.css">
+    <link rel="stylesheet" href="./assets3/css/base3.css">
+    <link rel="stylesheet" href="./assets3/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets3/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <header class="header-nav">
+        <ul class="header-nav__list">
+            <li><a href="">HOME</a></li>
+            <li><a href=""><i class="fas fa-user"></i>ABOUT</a></li>
+            <li><a href=""><i class="fas fa-th"></i>PORTFOLIO</a></li>
+            <li><a href=""><i class="fas fa-envelope"></i>CONTACT</a></li>
+        </ul>
+    
+        <!-- chỉ hiện trên mobile -->
+        <ul class="header-nav__list-item">
+            <li class="flex-mobile">
+                <a href="color-home">HOME</a>
+                <a class="color-home-mobile" class="header-search-mobile">
+                    <i class="header-search__icon-mobile fas fa-bars"></i>
+                </a>
+            </li>
+            <li><a class="btn-mobile" href="">ABOUT</a></li>
+            <li><a class="btn-mobile" href="">PORTFOLIO</a></li>
+            <li><a class="btn-mobile" href="">CONTACT</a></li>
+            <li><a class="btn-mobile" href="">SEARCH</a></li>
+        </ul>
+        
+        <!-- search-btn -->
+        <a class="header-search">
+            <i class="header-search__icon fas fa-search"></i>
+        </a>
+
+        
+
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop()) {
+                    $('header').addClass('sticky');
+                } else {
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>   
+
+    <div class="slider">
+        <div class="slider__heading">
+            <span class="slider__heading-1">MY</span>
+            <span class="slider__heading-2">WEBSITE</span>
+            <span class="slider__heading-3">LOGO</span>
+        </div>
+    </div>
+    
+
+    <div class="content">
+        <div class="content__1 center padding-margin-64-16">
+            <h3 class="content__1-heading center">ABOUT ME</h3>
+            <p class="content__1-description center">I love photography</p>
+            <p class="content__1-paragrah">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <div class="row content__2-Introduce">
+                <div class="col col-half content__2-Introduce-1">
+                    <h3>
+                        <i class="fas fa-user"></i>
+                        My Name
+                    </h3>
+                    <img src="./assets3/img/myname.jpg" alt="" class="content__Introduce-img">
+                </div>
+                <p class="col-half col">
+                    Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <div class="clear"></div>
+            </div>
+            <p class="content__2-desciption">Im really good at:</p>
+            <div class="wap" style="text-align: left;">
+                <p class="content__Photography">
+                    <i class="fas fa-camera"></i>
+                    Photography
+                </p>
+                <div class="content__row-white">
+                    <div class="content__row-grat color center" style="width: 90%;font-style: italic;">90%</div>
+                </div>
+
+                <p class="content__Photography">
+                    <i class="fas fa-laptop"></i>
+                    Web Design
+                </p>
+                <div class="content__row-white">
+                    <div class="content__row-grat color center" style="width: 85%;font-style: italic;">85%</div>
+                </div>
+
+                <p class="content__Photography">
+                    <i class="far fa-image"></i>
+                    Photoshop
+                </p>
+                <div class="content__row-white">
+                    <div class="content__row-grat color center" style="width: 75%;font-style: italic;">75%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INFOMATION -->
+        <div class="content__2-info color">
+            <div class="content__2-info-1 white center">
+                <span style="font-size: 24px;">14+</span><br>Partners
+            </div>
+            <div class="content__2-info-1 white center">
+                <span style="font-size: 24px;">55+</span><br>Projects Done
+            </div>
+            <div class="content__2-info-1 white center">
+                <span style="font-size: 24px;">89+</span><br>Happy Clients
+            </div>
+            <div class="content__2-info-1 white center">
+                <span style="font-size: 24px;">150+</span><br>Meetings
+            </div>
+        </div>
+        <!-- slider -->
+        <div class="content__2-silder">
+            <span class="white">PORTFOLIO</span>
+        </div>
+
+        <div class="content__3-My-work padding-margin-64-16">
+            <h3 class="center">MY WORK</h3>
+            <p class="center">Here are some of my latest lorem work ipsum tipsum.</p>
+            <p class="center" style="margin-bottom: 40px;">Click on the images to make them bigger</p>
+
+            <div class="row-4-padding center" style="line-height: 0;">
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%; vertical-align: middle;" src="./assets3/img/img1.jpg" class="content__3-hover" alt="">
+                </div>
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%;" src="https://www.w3schools.com/w3images/p2.jpg" class="content__3-hover" alt="">
+                </div>
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%;" src="https://www.w3schools.com/w3images/p3.jpg" class="content__3-hover" alt="">
+                </div>
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%;" src="https://www.w3schools.com/w3images/p4.jpg" class="content__3-hover" alt="">
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="row-4-padding content__3-img center" style="line-height: 0;">
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%;" src="https://www.w3schools.com/w3images/p5.jpg" class="content__3-hover" alt="">
+                </div>
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%;" src="https://www.w3schools.com/w3images/p6.jpg" class="content__3-hover" alt="">
+                </div>
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%;" src="https://www.w3schools.com/w3images/p7.jpg" class="content__3-hover" alt="">
+                </div>
+                <div class="col-4 content__3-img-1">
+                    <img style="width: 100%;" src="https://www.w3schools.com/w3images/p8.jpg" class="content__3-hover" alt="">
+                </div>
+
+                <button class="content__3-button">LOAD MORE</button>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="content__contact">
+            <div class="content__contact-item">
+                <p class="content__contact-name">CONTACT</p>
+            </div>
+        </div>
+        <!-- container-section -->
+        <div class="container__section">
+            <h3 class="container__name">WHERE I WORK</h3>
+            <p class="container__description">I'd love your feedback!</p>
+            <div class="container__contact row-32" style="display: flex;">
+                <div class="container__contact1 col-2 col-2-width-33" style="line-height: 0;">
+                    <img src="https://www.w3schools.com/w3images/map.jpg" style="width: 100%;" alt="" class="container__img">
+                </div>
+
+                <div class="container__contact2 col-2 col-2-width-66">
+                    <div class="container__info">
+                        <p><i class="fas fa-map-marker-alt"></i>Chicago, US</p>
+                        <p><i class="fas fa-phone-alt"></i>Phone: +00 151515</p>
+                        <p><i class="fas fa-envelope"></i>Email: mail@mail.com</p>
+                    </div>
+                    <p class="container-desription">Swing by for a cup of<i class="fas fa-coffee"></i>, or leave me a note:</p>
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="row-4-padding" style="margin: 0 -16px 8px -16px;">
+                                <div class="col-half row-4-padding">
+                                    <input class="contact-input contact-input-border" type="text" placeholder="Name" required name="name">
+                                </div>
+                                <div class="col-half row-4-padding">
+                                    <input class="contact-input contact-input-border" type="text" placeholder="Email" required name="email">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <input type="text" class="contact-input contact-input-border" placeholder="Message" required name="message">
+                            <button class="contact-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                SEND MESSAGE
+                            </button>
+                           
+                        </form>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="" class="footer__btn">
+            <i class="fas fa-arrow-up"></i>
+            To the top
+        </a>
+        <div class="footer__link">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p style="color: #fff;">
+            Powered by 
+            <a href="https://www.w3schools.com/w3css/default.asp" class="footer__link-btn" target="g" style="color: #fff; text-decoration: revert;">w3.css</a>
+        </p>
+    </div>
+
+    <script>
+        var headerNav = document.getElementById('headerNav');
+        console.log(headerNav)
+    </script>
+</body>
+</html>
